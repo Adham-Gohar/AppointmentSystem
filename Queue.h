@@ -61,7 +61,7 @@ public:
 		count++;
 	}
 
-	T peek(){ // to see what is next in the queue
+	T peek(){ // to see the top of the queue
 		if (isEmpty())
 		{
 			cout << "UnderFlow\nProgram Terminated\n";
