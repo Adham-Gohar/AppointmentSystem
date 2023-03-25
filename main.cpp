@@ -30,7 +30,7 @@ int main()
 	mechanicsFile.close();
 
 
-	// read mechanics' data from the file and assign it to the an array of mechanics
+	// read customers' data from the file and assign it to the an array of customers
 	ifstream customersFile("customersData.txt"); // opning the file
 	int numCustomers;
 	customersFile >> numCustomers; // creating an a dynamic array of mechanics
